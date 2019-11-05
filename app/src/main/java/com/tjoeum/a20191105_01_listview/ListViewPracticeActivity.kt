@@ -20,6 +20,7 @@ class ListViewPracticeActivity : AppCompatActivity() {
 
         postListView.adapter = postAdapter
 
+
     }
 
     fun  addPosts(){
