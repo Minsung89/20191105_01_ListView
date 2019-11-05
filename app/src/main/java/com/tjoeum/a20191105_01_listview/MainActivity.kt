@@ -2,6 +2,7 @@ package com.tjoeum.a20191105_01_listview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.tjoeum.a20191105_01_listview.datas.RoomData
 
 class MainActivity : AppCompatActivity() {
@@ -54,7 +55,9 @@ class MainActivity : AppCompatActivity() {
 
         roomList.add(RoomData("은평구"))
 
-
+        for (item in roomList){
+            Log.i("roomList", item.toString())
+        }
     }
 
 

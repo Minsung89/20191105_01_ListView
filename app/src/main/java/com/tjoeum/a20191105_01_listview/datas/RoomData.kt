@@ -27,4 +27,10 @@ class RoomData(roomPrice:Int, roomAddress:String, roomFloor:Int) { //생성자
     constructor(address:String) : this(-1,address,0){
         Log.d("룸데이터","address 호출")
     }
+
+
+    override fun toString(): String {
+        return "RoomData(price=$price, address='$address', floor=$floor)"
+    }
+
 }
