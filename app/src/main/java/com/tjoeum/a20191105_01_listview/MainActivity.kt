@@ -47,10 +47,12 @@ class MainActivity : AppCompatActivity() {
 
         roomList.add(room3)
 
+        roomList.add(RoomData(12000,"마포구 망원1동",3))
+
+        roomList.add(RoomData(15000,"마포구 망원동",2))
 
 
-
-
+        roomList.add(RoomData("은평구"))
 
 
     }
